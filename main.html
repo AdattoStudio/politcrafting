@@ -91,6 +91,14 @@
 			</svg></div>
 		</div>
 	</div>
-	<script src="https://github.com/AdattoStudio/politcrafting/blob/main/js/script.js"></script>
+	<script>
+		const menuBtn = document.querySelector('.menu-button');
+const menu = document.querySelector('.adaptive-menu')
+
+menuBtn.addEventListener('click', function(){
+	menu.classList.toggle('active');
+	menuBtn.classList.toggle('active');
+})
+	</script>
 </body>
 </html>
